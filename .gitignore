@@ -1,0 +1,6 @@
+*
+!artifacts/
+!artifacts/inno/
+!artifacts/inno/*.exe
+!.gitignore
+!README.md

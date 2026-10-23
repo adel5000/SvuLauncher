@@ -1,0 +1,10 @@
+{
+  "JavaBinDirectory": "C:\\Program Files (x86)\\SVU\\SVUSessionsLauncher\\SvuSessionLauncher\\Java\\bin",
+  "LinkJvmSha256": "DC2E3D728862DF7D3A1877D8282D28A7FBA4726F5915D6C2A264FF259C3E173A",
+  "Port": 443,
+  "Language": "EN",
+  "EnableMeetingStatusCheck": false,
+  "AllowInsecureMeetingStatusHttp": false,
+  "RequireHostStarted": false,
+  "UiLanguage": ""
+}

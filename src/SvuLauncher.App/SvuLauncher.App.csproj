@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>SvuLauncher</AssemblyName>
+    <RootNamespace>SvuLauncher.App</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SvuLauncher.Infrastructure\SvuLauncher.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The WPF SDK drops these from ImplicitUsings to avoid type-name clashes in XAML code-behind. -->
+    <Using Include="System.IO" />
+    <Using Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="SvuLauncher.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\SvuLauncher.Cli\svulauncher.json" Link="svulauncher.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

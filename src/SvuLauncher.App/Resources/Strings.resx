@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>SVU Sessions Launcher</value></data>
+  <data name="Login_Subtitle" xml:space="preserve"><value>Sign in with your SVU account</value></data>
+  <data name="Login_UserName" xml:space="preserve"><value>User name</value></data>
+  <data name="Login_Password" xml:space="preserve"><value>Password</value></data>
+  <data name="Login_RememberMe" xml:space="preserve"><value>Remember me on this computer</value></data>
+  <data name="Login_SignIn" xml:space="preserve"><value>Sign in</value></data>
+  <data name="Login_ErrorRejected" xml:space="preserve"><value>The user name or password is incorrect.</value></data>
+  <data name="Login_ErrorUnreachable" xml:space="preserve"><value>Could not reach the SVU sign-in service: {0}</value></data>
+  <data name="Sessions_Title" xml:space="preserve"><value>Sessions</value></data>
+  <data name="Sessions_SignOut" xml:space="preserve"><value>Sign out</value></data>
+  <data name="Sessions_Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="Sessions_Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="Sessions_Empty" xml:space="preserve"><value>No sessions found</value></data>
+  <data name="Sessions_EmptyHint" xml:space="preserve"><value>Try another option, program, course or status.</value></data>
+  <data name="Sessions_ChooseProgram" xml:space="preserve"><value>Choose a program</value></data>
+  <data name="Sessions_ChooseProgramHint" xml:space="preserve"><value>Pick a program and course to see their sessions, or load every session in all programs (this can take a few seconds).</value></data>
+  <data name="Sessions_LoadAll" xml:space="preserve"><value>Load all sessions</value></data>
+  <data name="Filter_Scope" xml:space="preserve"><value>Show</value></data>
+  <data name="Scope_MyClasses" xml:space="preserve"><value>My classes only</value></data>
+  <data name="Scope_AllMyCourseClasses" xml:space="preserve"><value>All classes of my courses</value></data>
+  <data name="Scope_ByProgramAndCourse" xml:space="preserve"><value>By program and course</value></data>
+  <data name="Filter_Program" xml:space="preserve"><value>Program</value></data>
+  <data name="Filter_Course" xml:space="preserve"><value>Course</value></data>
+  <data name="AllPrograms" xml:space="preserve"><value>All programs</value></data>
+  <data name="AllCourses" xml:space="preserve"><value>All courses</value></data>
+  <data name="Session_Join" xml:space="preserve"><value>Join</value></data>
+  <data name="Session_Details" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Role_Student" xml:space="preserve"><value>Student</value></data>
+  <data name="Role_Tutor" xml:space="preserve"><value>Tutor</value></data>
+  <data name="Greeting" xml:space="preserve"><value>{0} ({1})</value></data>
+  <data name="Status_SessionCount" xml:space="preserve"><value>{0} session(s)</value></data>
+  <data name="StatusFilter_Label" xml:space="preserve"><value>Status</value></data>
+  <data name="StatusFilter_All" xml:space="preserve"><value>All statuses</value></data>
+  <data name="SessionState_InProgress" xml:space="preserve"><value>In progress</value></data>
+  <data name="SessionState_Planned" xml:space="preserve"><value>Planned</value></data>
+  <data name="SessionState_Ended" xml:space="preserve"><value>Ended</value></data>
+  <data name="Session_StartedAt" xml:space="preserve"><value>Started {0}</value></data>
+  <data name="Session_OutsideMyClasses" xml:space="preserve"><value>Not your class</value></data>
+  <data name="Session_OutsideMyClassesHint" xml:space="preserve"><value>A session of one of your courses held for another class.</value></data>
+  <data name="Status_SessionCountFiltered" xml:space="preserve"><value>{0} of {1} session(s)</value></data>
+  <data name="Sessions_SortHint" xml:space="preserve"><value>In progress first, then newest</value></data>
+  <data name="Status_ProgramsFailed" xml:space="preserve"><value>Could not load programs: {0}</value></data>
+  <data name="Status_CoursesFailed" xml:space="preserve"><value>Could not load courses: {0}</value></data>
+  <data name="Status_NonNumericProgram" xml:space="preserve"><value>Program {0} has a non-numeric id ({1}).</value></data>
+  <data name="Status_SessionsFailed" xml:space="preserve"><value>Could not load sessions: {0}</value></data>
+  <data name="Status_NotStarted" xml:space="preserve"><value>Session {0} has not been started by its tutor yet.</value></data>
+  <data name="Status_Running" xml:space="preserve"><value>Session "{0}" is running.</value></data>
+  <data name="Status_LaunchFailed" xml:space="preserve"><value>Could not start the session: {0}</value></data>
+  <data name="Status_Ended" xml:space="preserve"><value>The session has ended.</value></data>
+  <data name="Status_EndedWithCode" xml:space="preserve"><value>The session ended with exit code {0}.</value></data>
+  <data name="Status_ClientFailed" xml:space="preserve"><value>The session client failed: {0}</value></data>
+  <data name="Settings_Title" xml:space="preserve"><value>Settings</value></data>
+  <data name="Settings_Microphone" xml:space="preserve"><value>Microphone</value></data>
+  <data name="Settings_MicrophoneOn" xml:space="preserve"><value>Microphone on</value></data>
+  <data name="Settings_MicrophoneLevel" xml:space="preserve"><value>Input level</value></data>
+  <data name="Settings_NoMicrophone" xml:space="preserve"><value>No microphone was found. Connect one and it will appear here.</value></data>
+  <data name="Settings_MicrophoneError" xml:space="preserve"><value>Could not change the microphone: {0}</value></data>
+  <data name="Settings_MuteOnLaunch" xml:space="preserve"><value>Mute when joining a session</value></data>
+  <data name="Settings_MuteOnLaunchHint" xml:space="preserve"><value>Your microphone is muted just before the session starts.</value></data>
+  <data name="Settings_Appearance" xml:space="preserve"><value>Appearance</value></data>
+  <data name="Settings_Language" xml:space="preserve"><value>Language</value></data>
+  <data name="Settings_Theme" xml:space="preserve"><value>Theme</value></data>
+  <data name="Settings_RestartRequired" xml:space="preserve"><value>The new language applies the next time you open the launcher.</value></data>
+  <data name="Language_System" xml:space="preserve"><value>Windows default</value></data>
+  <data name="Language_English" xml:space="preserve"><value>English</value></data>
+  <data name="Language_Arabic" xml:space="preserve"><value>العربية</value></data>
+  <data name="Theme_System" xml:space="preserve"><value>Windows default</value></data>
+  <data name="Theme_Light" xml:space="preserve"><value>Light</value></data>
+  <data name="Theme_Dark" xml:space="preserve"><value>Dark</value></data>
+  <data name="Mic_Mute" xml:space="preserve"><value>Mute microphone</value></data>
+  <data name="Mic_Unmute" xml:space="preserve"><value>Unmute microphone</value></data>
+  <data name="Close_Confirm" xml:space="preserve"><value>A session is still running. Closing the launcher will end it. Close anyway?</value></data>
+  <data name="Dialog_Yes" xml:space="preserve"><value>Close</value></data>
+  <data name="Dialog_No" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Startup_SettingsError" xml:space="preserve"><value>Could not read {0}:
+{1}</value></data>
+</root>

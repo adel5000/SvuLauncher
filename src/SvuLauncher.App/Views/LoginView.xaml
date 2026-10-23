@@ -1,0 +1,47 @@
+<UserControl x:Class="SvuLauncher.App.Views.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+             xmlns:res="clr-namespace:SvuLauncher.App.Resources"
+             Loaded="OnLoaded">
+    <Grid>
+        <ui:Card Width="400" Padding="36,32" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel>
+                <Border Width="64" Height="64" CornerRadius="32" HorizontalAlignment="Center"
+                        Background="{DynamicResource AccentFillColorDefaultBrush}">
+                    <ui:SymbolIcon Symbol="HatGraduation24" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                   Foreground="{DynamicResource TextOnAccentFillColorPrimaryBrush}" />
+                </Border>
+
+                <TextBlock Text="{x:Static res:Strings.AppTitle}" Margin="0,18,0,4" FontSize="20" FontWeight="SemiBold"
+                           TextAlignment="Center" TextWrapping="Wrap" Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
+                <TextBlock Text="{x:Static res:Strings.Login_Subtitle}" Margin="0,0,0,28" TextAlignment="Center"
+                           Style="{StaticResource SecondaryText}" FontSize="13" />
+
+                <!-- Credentials are Latin text even in the Arabic UI. -->
+                <ui:TextBox x:Name="UserNameBox" PlaceholderText="{x:Static res:Strings.Login_UserName}"
+                            Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"
+                            Icon="{ui:SymbolIcon Person24}" FlowDirection="LeftToRight" Margin="0,0,0,12" />
+                <ui:PasswordBox x:Name="PasswordBox" PlaceholderText="{x:Static res:Strings.Login_Password}"
+                                Password="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                Icon="{ui:SymbolIcon Password24}" FlowDirection="LeftToRight" Margin="0,0,0,12" />
+
+                <CheckBox Content="{x:Static res:Strings.Login_RememberMe}" IsChecked="{Binding RememberMe}" Margin="0,0,0,20" />
+
+                <ui:Button Appearance="Primary" Command="{Binding SignInCommand}" IsDefault="True"
+                           HorizontalAlignment="Stretch" Height="38">
+                    <Grid>
+                        <TextBlock Text="{x:Static res:Strings.Login_SignIn}"
+                                   Visibility="{Binding SignInCommand.IsRunning, Converter={StaticResource InverseBoolToVisibility}}" />
+                        <ui:ProgressRing IsIndeterminate="True" Width="18" Height="18"
+                                         Foreground="{DynamicResource TextOnAccentFillColorPrimaryBrush}"
+                                         Visibility="{Binding SignInCommand.IsRunning, Converter={StaticResource BoolToVisibility}}" />
+                    </Grid>
+                </ui:Button>
+
+                <ui:InfoBar Message="{Binding Error}" IsOpen="{Binding HasError, Mode=OneWay}"
+                            Severity="Error" IsClosable="False" Margin="0,16,0,0" />
+            </StackPanel>
+        </ui:Card>
+    </Grid>
+</UserControl>

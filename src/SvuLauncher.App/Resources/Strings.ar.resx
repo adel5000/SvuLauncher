@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>مشغّل جلسات الجامعة الافتراضية السورية</value></data>
+  <data name="Login_Subtitle" xml:space="preserve"><value>سجّل الدخول بحساب الجامعة</value></data>
+  <data name="Login_UserName" xml:space="preserve"><value>اسم المستخدم</value></data>
+  <data name="Login_Password" xml:space="preserve"><value>كلمة المرور</value></data>
+  <data name="Login_RememberMe" xml:space="preserve"><value>تذكّرني على هذا الحاسوب</value></data>
+  <data name="Login_SignIn" xml:space="preserve"><value>تسجيل الدخول</value></data>
+  <data name="Login_ErrorRejected" xml:space="preserve"><value>اسم المستخدم أو كلمة المرور غير صحيحة.</value></data>
+  <data name="Login_ErrorUnreachable" xml:space="preserve"><value>تعذّر الاتصال بخدمة تسجيل الدخول في الجامعة: {0}</value></data>
+  <data name="Sessions_Title" xml:space="preserve"><value>الجلسات</value></data>
+  <data name="Sessions_SignOut" xml:space="preserve"><value>تسجيل الخروج</value></data>
+  <data name="Sessions_Settings" xml:space="preserve"><value>الإعدادات</value></data>
+  <data name="Sessions_Refresh" xml:space="preserve"><value>تحديث</value></data>
+  <data name="Sessions_Empty" xml:space="preserve"><value>لا توجد جلسات</value></data>
+  <data name="Sessions_EmptyHint" xml:space="preserve"><value>جرّب خياراً أو برنامجاً أو مادة أو حالة أخرى.</value></data>
+  <data name="Sessions_ChooseProgram" xml:space="preserve"><value>اختر برنامجاً</value></data>
+  <data name="Sessions_ChooseProgramHint" xml:space="preserve"><value>اختر البرنامج والمادة لعرض جلساتهما، أو حمّل جميع الجلسات في كل البرامج (قد يستغرق ذلك بضع ثوانٍ).</value></data>
+  <data name="Sessions_LoadAll" xml:space="preserve"><value>تحميل جميع الجلسات</value></data>
+  <data name="Filter_Scope" xml:space="preserve"><value>العرض</value></data>
+  <data name="Scope_MyClasses" xml:space="preserve"><value>إظهار جلسات الطالب في صفوفه فقط</value></data>
+  <data name="Scope_AllMyCourseClasses" xml:space="preserve"><value>إظهار جلسات الطالب لجميع صفوف مواده</value></data>
+  <data name="Scope_ByProgramAndCourse" xml:space="preserve"><value>إظهار الجلسات بحسب البرنامج والمادة</value></data>
+  <data name="Filter_Program" xml:space="preserve"><value>البرنامج</value></data>
+  <data name="Filter_Course" xml:space="preserve"><value>المقرر</value></data>
+  <data name="AllPrograms" xml:space="preserve"><value>جميع البرامج</value></data>
+  <data name="AllCourses" xml:space="preserve"><value>جميع المقررات</value></data>
+  <data name="Session_Join" xml:space="preserve"><value>انضمام</value></data>
+  <data name="Session_Details" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Role_Student" xml:space="preserve"><value>طالب</value></data>
+  <data name="Role_Tutor" xml:space="preserve"><value>مدرّس</value></data>
+  <data name="Greeting" xml:space="preserve"><value>{0} ({1})</value></data>
+  <data name="Status_SessionCount" xml:space="preserve"><value>عدد الجلسات: {0}</value></data>
+  <data name="StatusFilter_Label" xml:space="preserve"><value>الحالة</value></data>
+  <data name="StatusFilter_All" xml:space="preserve"><value>جميع الحالات</value></data>
+  <data name="SessionState_InProgress" xml:space="preserve"><value>جارية الآن</value></data>
+  <data name="SessionState_Planned" xml:space="preserve"><value>مجدولة</value></data>
+  <data name="SessionState_Ended" xml:space="preserve"><value>منتهية</value></data>
+  <data name="Session_StartedAt" xml:space="preserve"><value>بدأت {0}</value></data>
+  <data name="Session_OutsideMyClasses" xml:space="preserve"><value>لغير صفك</value></data>
+  <data name="Session_OutsideMyClassesHint" xml:space="preserve"><value>جلسة لإحدى موادك مخصصة لصف آخر.</value></data>
+  <data name="Status_SessionCountFiltered" xml:space="preserve"><value>عدد الجلسات: {0} من {1}</value></data>
+  <data name="Sessions_SortHint" xml:space="preserve"><value>الجارية أولاً ثم الأحدث</value></data>
+  <data name="Status_ProgramsFailed" xml:space="preserve"><value>تعذّر تحميل البرامج: {0}</value></data>
+  <data name="Status_CoursesFailed" xml:space="preserve"><value>تعذّر تحميل المقررات: {0}</value></data>
+  <data name="Status_NonNumericProgram" xml:space="preserve"><value>معرّف البرنامج {0} غير رقمي ({1}).</value></data>
+  <data name="Status_SessionsFailed" xml:space="preserve"><value>تعذّر تحميل الجلسات: {0}</value></data>
+  <data name="Status_NotStarted" xml:space="preserve"><value>لم يبدأ المدرّس الجلسة {0} بعد.</value></data>
+  <data name="Status_Running" xml:space="preserve"><value>الجلسة «{0}» قيد التشغيل.</value></data>
+  <data name="Status_LaunchFailed" xml:space="preserve"><value>تعذّر بدء الجلسة: {0}</value></data>
+  <data name="Status_Ended" xml:space="preserve"><value>انتهت الجلسة.</value></data>
+  <data name="Status_EndedWithCode" xml:space="preserve"><value>انتهت الجلسة برمز الخروج {0}.</value></data>
+  <data name="Status_ClientFailed" xml:space="preserve"><value>تعطّل برنامج الجلسة: {0}</value></data>
+  <data name="Settings_Title" xml:space="preserve"><value>الإعدادات</value></data>
+  <data name="Settings_Microphone" xml:space="preserve"><value>الميكروفون</value></data>
+  <data name="Settings_MicrophoneOn" xml:space="preserve"><value>تشغيل الميكروفون</value></data>
+  <data name="Settings_MicrophoneLevel" xml:space="preserve"><value>مستوى الإدخال</value></data>
+  <data name="Settings_NoMicrophone" xml:space="preserve"><value>لم يُعثر على ميكروفون. صِل ميكروفوناً وسيظهر هنا.</value></data>
+  <data name="Settings_MicrophoneError" xml:space="preserve"><value>تعذّر تغيير إعدادات الميكروفون: {0}</value></data>
+  <data name="Settings_MuteOnLaunch" xml:space="preserve"><value>كتم الصوت عند الانضمام إلى جلسة</value></data>
+  <data name="Settings_MuteOnLaunchHint" xml:space="preserve"><value>يُكتم الميكروفون قبل بدء الجلسة مباشرةً.</value></data>
+  <data name="Settings_Appearance" xml:space="preserve"><value>المظهر</value></data>
+  <data name="Settings_Language" xml:space="preserve"><value>اللغة</value></data>
+  <data name="Settings_Theme" xml:space="preserve"><value>السمة</value></data>
+  <data name="Settings_RestartRequired" xml:space="preserve"><value>ستُطبَّق اللغة الجديدة عند فتح المشغّل في المرة القادمة.</value></data>
+  <data name="Language_System" xml:space="preserve"><value>لغة النظام</value></data>
+  <data name="Language_English" xml:space="preserve"><value>English</value></data>
+  <data name="Language_Arabic" xml:space="preserve"><value>العربية</value></data>
+  <data name="Theme_System" xml:space="preserve"><value>حسب النظام</value></data>
+  <data name="Theme_Light" xml:space="preserve"><value>فاتح</value></data>
+  <data name="Theme_Dark" xml:space="preserve"><value>داكن</value></data>
+  <data name="Mic_Mute" xml:space="preserve"><value>كتم الميكروفون</value></data>
+  <data name="Mic_Unmute" xml:space="preserve"><value>إلغاء كتم الميكروفون</value></data>
+  <data name="Close_Confirm" xml:space="preserve"><value>لا تزال هناك جلسة قيد التشغيل، وسيؤدي إغلاق المشغّل إلى إنهائها. هل تريد الإغلاق على أي حال؟</value></data>
+  <data name="Dialog_Yes" xml:space="preserve"><value>إغلاق</value></data>
+  <data name="Dialog_No" xml:space="preserve"><value>إلغاء</value></data>
+  <data name="Startup_SettingsError" xml:space="preserve"><value>تعذّرت قراءة {0}:
+{1}</value></data>
+</root>
