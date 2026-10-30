@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v1.0.4-2563eb?style=flat-square" alt="Release v1.0.4">
+  <img src="https://img.shields.io/badge/release-v1.0.7-2563eb?style=flat-square" alt="Release v1.0.7">
   <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0b7650?style=flat-square" alt="Windows 10 and Windows 11">
   <img src="https://img.shields.io/badge/architecture-x64-4c5665?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/framework-.NET%20%2F%20WPF-512bd4?style=flat-square" alt=".NET and WPF">
@@ -38,7 +38,7 @@
 # 🇸🇾 العربية
 
 دليل عملي لتثبيت **SVU Launcher** وتفعيله والبدء باستخدامه على Windows. أحدث إصدار:
-`v1.0.4`.
+`v1.0.7`.
 
 > **حمّل فقط من [صفحة أحدث إصدار رسمي](../../releases/latest):** لا تثق بملفات Setup من مصادر أخرى.
 > لا تشارك مفتاح الترخيص أو كلمة مرور الجامعة مع أي شخص.
@@ -225,7 +225,7 @@ tools\installer\SvuLauncher.iss
 # 🇬🇧 English
 
 A practical guide to installing, activating, and using **SVU Launcher** on Windows. The latest
-release is `v1.0.4`.
+release is `v1.0.7`.
 
 > **Download only from the official [latest release page](../../releases/latest).** Do not trust
 > Setup files from other sources. Never share your licence key or your university password.
