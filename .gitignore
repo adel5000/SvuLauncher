@@ -2,5 +2,8 @@
 !artifacts/
 !artifacts/inno/
 !artifacts/inno/*.exe
+!docs/
+!docs/images/
+!docs/images/*.png
 !.gitignore
 !README.md

@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v1.0.0--preview-2563eb?style=flat-square" alt="Release v1.0.0-preview">
+  <img src="https://img.shields.io/badge/release-v1.0.4-2563eb?style=flat-square" alt="Release v1.0.4">
   <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0b7650?style=flat-square" alt="Windows 10 and Windows 11">
   <img src="https://img.shields.io/badge/architecture-x64-4c5665?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/framework-.NET%20%2F%20WPF-512bd4?style=flat-square" alt=".NET and WPF">
@@ -37,10 +37,10 @@
 
 # 🇸🇾 العربية
 
-دليل عملي لتثبيت **SVU Launcher** وتفعيله والبدء باستخدامه على Windows. الإصدار الحالي تجريبي:
-`v1.0.0-preview`.
+دليل عملي لتثبيت **SVU Launcher** وتفعيله والبدء باستخدامه على Windows. أحدث إصدار:
+`v1.0.4`.
 
-> **حمّل فقط من [صفحة الإصدارات الرسمية](../../releases):** لا تثق بملفات Setup من مصادر أخرى.
+> **حمّل فقط من [صفحة أحدث إصدار رسمي](../../releases/latest):** لا تثق بملفات Setup من مصادر أخرى.
 > لا تشارك مفتاح الترخيص أو كلمة مرور الجامعة مع أي شخص.
 
 ## المحتويات
@@ -69,7 +69,7 @@
 - تخزين آمن لبيانات الحساب باستخدام DPAPI.
 - إصدار x64 قائم بذاته، لا يحتاج إلى تثبيت .NET بشكل منفصل.
 
-> هذا الإصدار **معاينة**. قد تتغير بعض التفاصيل، ويُنصح دائمًا بالاحتفاظ بنسخة من مفتاح الترخيص.
+> يُنصح دائمًا بالاحتفاظ بنسخة من مفتاح الترخيص في مكان آمن.
 
 <a id="ar-requirements"></a>
 
@@ -88,16 +88,11 @@
 
 ## الخطوة 1: التنزيل والتحقق
 
-1. افتح [صفحة الإصدارات](../../releases) في هذا المستودع.
+1. افتح [صفحة أحدث إصدار](../../releases/latest) في هذا المستودع.
 2. نزّل أحدث ملف `Setup.exe` الخاص بـ **SVU Launcher**.
 3. تحقق من أن الملف قادم من صفحة الإصدارات الرسمية، وليس من رابط خارجي.
 4. إذا ظهر تحذير من Windows SmartScreen، فتأكد أولًا من مصدر الملف. لا تتجاوز التحذير إلا إذا
    كنت واثقًا من أن التنزيل رسمي.
-
-<p align="center">
-  <img src="docs/images/01-download-release.png" alt="صفحة GitHub Releases وزر تنزيل Setup.exe" width="900">
-</p>
-<p align="center"><sub>الخطوة 1 — نزّل Setup.exe من صفحة الإصدارات الرسمية.</sub></p>
 
 <a id="ar-step-2"></a>
 
@@ -108,11 +103,6 @@
 3. يمكنك تغيير مجلد التثبيت من صفحة اختيار المجلد.
 4. اترك خيار **إنشاء اختصار على سطح المكتب** مفعّلًا إن رغبت.
 5. أكمل التثبيت. لا يحتاج الطالب عادةً إلى صلاحيات مدير؛ التثبيت الافتراضي يكون لحساب المستخدم.
-
-<p align="center">
-  <img src="docs/images/02-installer-setup.png" alt="معالج تثبيت SvuLauncher" width="900">
-</p>
-<p align="center"><sub>الخطوة 2 — معالج التثبيت مع إمكانية اختيار مجلد مخصص.</sub></p>
 
 <a id="ar-step-3"></a>
 
@@ -126,11 +116,6 @@
    - معرّف الجهاز / Machine Fingerprint.
    - أي ملاحظة عن مشكلة التفعيل إن وجدت.
 5. لا ترسل كلمة مرور الجامعة أو أي بيانات حساسة.
-
-<p align="center">
-  <img src="docs/images/03-activation-screen.png" alt="شاشة التفعيل ومعرّف الجهاز في SVU Launcher" width="900">
-</p>
-<p align="center"><sub>الخطوة 3 — صفحة الترخيص تعرض معرّف الجهاز وحالة الاشتراك.</sub></p>
 
 > **ملاحظة:** مفتاح الترخيص مرتبط بجهاز واحد. إذا غيّرت الجهاز أو أعدت تثبيت Windows، تواصل مع
 > الدعم قبل محاولة تفعيل المفتاح على جهاز آخر.
@@ -239,11 +224,11 @@ tools\installer\SvuLauncher.iss
 
 # 🇬🇧 English
 
-A practical guide to installing, activating, and using **SVU Launcher** on Windows. The current
-release is a preview: `v1.0.0-preview`.
+A practical guide to installing, activating, and using **SVU Launcher** on Windows. The latest
+release is `v1.0.4`.
 
-> **Download only from the official [Releases page](../../releases).** Do not trust Setup files from
-> other sources. Never share your licence key or your university password.
+> **Download only from the official [latest release page](../../releases/latest).** Do not trust
+> Setup files from other sources. Never share your licence key or your university password.
 
 ## Contents
 
@@ -272,8 +257,7 @@ and lecture-room hand-off in one focused app.
 - DPAPI-protected storage for saved account credentials.
 - Self-contained x64 build; no separate .NET installation is required.
 
-> This is a **preview** release. Details may change, and you should always keep a copy of your
-> licence key.
+> Always keep a copy of your licence key in a safe place.
 
 <a id="en-requirements"></a>
 
@@ -292,16 +276,11 @@ and lecture-room hand-off in one focused app.
 
 ## Step 1: Download and verify
 
-1. Open this repository’s [Releases page](../../releases).
+1. Open this repository’s [latest release page](../../releases/latest).
 2. Download the latest **SVU Launcher** `Setup.exe`.
 3. Confirm that the file came from the official Releases page, not an external link.
 4. If Windows SmartScreen shows a warning, verify the file source first. Do not bypass the warning
    unless you are certain the download is official.
-
-<p align="center">
-  <img src="docs/images/01-download-release.png" alt="GitHub Releases page with the Setup.exe download" width="900">
-</p>
-<p align="center"><sub>Step 1 — Download Setup.exe from the official Releases page.</sub></p>
 
 <a id="en-step-2"></a>
 
@@ -313,11 +292,6 @@ and lecture-room hand-off in one focused app.
 4. Leave **Create a desktop shortcut** enabled if you want one.
 5. Finish the installation. Students normally do not need Administrator rights; the default install
    is per-user.
-
-<p align="center">
-  <img src="docs/images/02-installer-setup.png" alt="SvuLauncher Inno Setup installation wizard" width="900">
-</p>
-<p align="center"><sub>Step 2 — The installer with an optional custom installation folder.</sub></p>
 
 <a id="en-step-3"></a>
 
@@ -331,11 +305,6 @@ and lecture-room hand-off in one focused app.
    - The machine fingerprint / PC ID.
    - A short note if activation is failing.
 5. Do not send your university password or any sensitive account data.
-
-<p align="center">
-  <img src="docs/images/03-activation-screen.png" alt="SVU Launcher activation screen with the machine fingerprint" width="900">
-</p>
-<p align="center"><sub>Step 3 — The licence page shows the machine ID and subscription status.</sub></p>
 
 > **Note:** A licence key is bound to one PC. If you change computers or reinstall Windows, contact
 > support before trying to activate the same key on another machine.
