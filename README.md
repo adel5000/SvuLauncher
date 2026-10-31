@@ -8,6 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/release-v1.0.7-2563eb?style=flat-square" alt="Release v1.0.7">
   <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0b7650?style=flat-square" alt="Windows 10 and Windows 11">
+  <img src="https://img.shields.io/badge/Linux-preview-f0820a?style=flat-square" alt="Linux preview">
   <img src="https://img.shields.io/badge/architecture-x64-4c5665?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/framework-.NET%20%2F%20WPF-512bd4?style=flat-square" alt=".NET and WPF">
   <img src="https://img.shields.io/badge/languages-AR%20%7C%20EN-c48a2c?style=flat-square" alt="Arabic and English">
@@ -68,6 +69,11 @@
 - تفعيل بترخيص مرتبط بالجهاز، مع تحقق دوري من الخادم.
 - تخزين آمن لبيانات الحساب باستخدام DPAPI.
 - إصدار x64 قائم بذاته، لا يحتاج إلى تثبيت .NET بشكل منفصل.
+
+> **Linux (معاينة):** تتوفّر الآن نسخة أصلية لنظام Linux بصيغة **AppImage** قيد الاختبار، مبنية على
+> إطار Avalonia، وتدعم تسجيل الدخول واستعراض الجلسات والتفعيل والتحديث الذاتي وتعدّد السمات (Fluent،
+> Semi، Suki، Material). لا تزال قاعة المحاضرة قيد التحقق النهائي على Linux؛ للحصول على نسخة المعاينة
+> تواصل مع المطوّر عبر واتساب.
 
 > يُنصح دائمًا بالاحتفاظ بنسخة من مفتاح الترخيص في مكان آمن.
 
@@ -216,6 +222,7 @@ tools\installer\SvuLauncher.iss
 - `SvuLauncher.Core` يحتوي الترخيص والتنسيق الأساسي.
 - `SvuLauncher.Infrastructure` يحتوي SOAP وDPAPI وخادم الترخيص.
 - `SvuLauncher.Room` و`SvuLauncher.Codecs` لقاعة المحاضرة والترميزات.
+- `SvuLauncher.App.Avalonia` واجهة Linux متعددة المنصّات (معاينة) المبنية على إطار Avalonia.
 - راجع `docs/LICENSING.md` و`docs/RELEASING.md` قبل النشر.
 
 ---
@@ -256,6 +263,11 @@ and lecture-room hand-off in one focused app.
 - PC-bound licence activation with periodic server validation.
 - DPAPI-protected storage for saved account credentials.
 - Self-contained x64 build; no separate .NET installation is required.
+
+> **Linux (preview):** A native Linux build is now in testing as an **AppImage**, built on the Avalonia
+> framework. Sign-in, session browsing, activation, self-update, and multiple UI themes (Fluent, Semi,
+> Suki, Material) work. The live lecture room is still being validated on Linux; contact the developer
+> on WhatsApp for a preview build.
 
 > Always keep a copy of your licence key in a safe place.
 
@@ -409,6 +421,7 @@ Technical notes:
 - `SvuLauncher.Infrastructure` — SOAP clients, DPAPI storage, hardware identity, and the licence
   server client.
 - `SvuLauncher.Room` and `SvuLauncher.Codecs` — lecture-room protocol/media and codec support.
+- `SvuLauncher.App.Avalonia` — the cross-platform (Linux) UI head, built with Avalonia (preview).
 - Read `docs/LICENSING.md` and `docs/RELEASING.md` before publishing a build.
 
 ---
