@@ -180,6 +180,26 @@ SVUL-XXXXX-XXXXX-XXXXX-XXXXX
 > إجراءات طلب الترخيص والتفعيل وصيغة المفتاح مطابقة تمامًا لنسخة Windows — راجع [الخطوة 3](#ar-step-3)
 > و [الخطوة 4](#ar-step-4). للمساعدة، تواصل مع المطوّر عبر [واتساب](https://wa.me/963988038382).
 
+<p align="center">
+  <img src="docs/screenshots/linux-01-login.png" alt="تسجيل الدخول إلى SVU Launcher على لينكس" width="860">
+</p>
+<p align="center"><sub>تسجيل الدخول — اختر حسابًا محفوظًا أو أضف آخر؛ زر الإعدادات في الأعلى.</sub></p>
+
+<p align="center">
+  <img src="docs/screenshots/linux-02-sessions.png" alt="شاشة الجلسات في SVU Launcher على لينكس" width="860">
+</p>
+<p align="center"><sub>الجلسات — تصفية حسب النطاق والبرنامج والمادة والحالة، والتبديل بين عروض البطاقات والجدول والمخطط الزمني.</sub></p>
+
+<p align="center">
+  <img src="docs/screenshots/linux-03-settings-themes.png" alt="الإعدادات ومبدّل السمات في SVU Launcher على لينكس" width="860">
+</p>
+<p align="center"><sub>الإعدادات — مبدّل السمات المباشر (Fluent و Semi و Suki و Material) وحالة الترخيص.</sub></p>
+
+<p align="center">
+  <img src="docs/screenshots/linux-04-themes.png" alt="السمات الأربع لـ SVU Launcher على لينكس جنبًا إلى جنب" width="860">
+</p>
+<p align="center"><sub>السمات الأربع المدمجة، قابلة للتبديل أثناء التشغيل من الإعدادات.</sub></p>
+
 ### 1. متطلبات النظام
 
 يعمل التطبيق على أي سطح مكتب شائع (GNOME و KDE و XFCE و Cinnamon …) سواء على **X11 أو Wayland**. على
@@ -486,6 +506,26 @@ share, and chat), self-update, and the four UI themes (Fluent, Semi, Suki, Mater
 > Licence requests, activation, and the serial format are identical to the Windows version — see
 > [Step 3](#en-step-3) and [Step 4](#en-step-4). For help, message the developer on
 > [WhatsApp](https://wa.me/963988038382).
+
+<p align="center">
+  <img src="docs/screenshots/linux-01-login.png" alt="SVU Launcher sign-in on Linux" width="860">
+</p>
+<p align="center"><sub>Sign-in — pick a saved account or add another; Settings is top-right.</sub></p>
+
+<p align="center">
+  <img src="docs/screenshots/linux-02-sessions.png" alt="SVU Launcher sessions view on Linux" width="860">
+</p>
+<p align="center"><sub>Sessions — filter by scope, program, course and status, and switch between the Cards, Table and Timeline layouts.</sub></p>
+
+<p align="center">
+  <img src="docs/screenshots/linux-03-settings-themes.png" alt="SVU Launcher settings and theme switcher on Linux" width="860">
+</p>
+<p align="center"><sub>Settings — the live theme switcher (Fluent, Semi, Suki, Material) and licence status.</sub></p>
+
+<p align="center">
+  <img src="docs/screenshots/linux-04-themes.png" alt="The four SVU Launcher themes on Linux, side by side" width="860">
+</p>
+<p align="center"><sub>The four built-in themes, switchable at runtime from Settings.</sub></p>
 
 ### 1. System prerequisites
 

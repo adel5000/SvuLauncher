@@ -5,5 +5,7 @@
 !docs/
 !docs/images/
 !docs/images/*.png
+!docs/screenshots/
+!docs/screenshots/*.png
 !.gitignore
 !README.md
