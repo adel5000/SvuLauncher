@@ -55,7 +55,6 @@
 - [الخطوة 5: تسجيل الدخول وبدء المحاضرة](#ar-step-5)
 - [الدعم والتواصل](#ar-support)
 - [الخصوصية والترخيص](#ar-privacy)
-- [للمطورين](#ar-developers)
 
 <a id="ar-overview"></a>
 
@@ -191,40 +190,6 @@ SVUL-XXXXX-XXXXX-XXXXX-XXXXX
 - التطبيق لا يرسل بيانات حسابك إلى خادم الترخيص.
 - لا تشارك مفتاح الترخيص علنًا؛ يمكن إلغاؤه أو إعادة ضبطه من لوحة الإدارة.
 
-<a id="ar-developers"></a>
-
-## للمطورين
-
-المستودع حل Windows/.NET 8 مع واجهة WPF وخدمة ترخيص محلية للتطوير.
-
-```powershell
-dotnet build SvuLauncher.sln -c Debug
-dotnet test tests\SvuLauncher.Tests\SvuLauncher.Tests.csproj
-```
-
-لبناء نسخة قابلة للتوزيع:
-
-```powershell
-dotnet publish src\SvuLauncher.App\SvuLauncher.App.csproj `
-  -c Release -r win-x64 --self-contained true `
-  -p:PublishDir="artifacts\publish\"
-```
-
-مثبّت Inno Setup الاختياري موجود في:
-
-```text
-tools\installer\SvuLauncher.iss
-```
-
-ملاحظات تقنية:
-
-- `SvuLauncher.App` هي واجهة WPF ونقطة الدخول.
-- `SvuLauncher.Core` يحتوي الترخيص والتنسيق الأساسي.
-- `SvuLauncher.Infrastructure` يحتوي SOAP وDPAPI وخادم الترخيص.
-- `SvuLauncher.Room` و`SvuLauncher.Codecs` لقاعة المحاضرة والترميزات.
-- `SvuLauncher.App.Avalonia` واجهة Linux متعددة المنصّات (معاينة) المبنية على إطار Avalonia.
-- راجع `docs/LICENSING.md` و`docs/RELEASING.md` قبل النشر.
-
 ---
 
 <a id="en"></a>
@@ -248,7 +213,6 @@ release is `v1.0.7`.
 - [Step 5: Student login and session launch](#en-step-5)
 - [Support](#en-support)
 - [Privacy and licensing](#en-privacy)
-- [For developers](#en-developers)
 
 <a id="en-overview"></a>
 
@@ -388,41 +352,6 @@ SVUL-XXXXX-XXXXX-XXXXX-XXXXX
 - Your account credentials are not sent to the licence server.
 - Do not share your licence key publicly; it can be revoked or its seat can be reset from the
   administration dashboard.
-
-<a id="en-developers"></a>
-
-## For developers
-
-The repository is a Windows/.NET 8 solution with a WPF shell and a local development licence server.
-
-```powershell
-dotnet build SvuLauncher.sln -c Debug
-dotnet test tests\SvuLauncher.Tests\SvuLauncher.Tests.csproj
-```
-
-Build a distributable self-contained x64 release:
-
-```powershell
-dotnet publish src\SvuLauncher.App\SvuLauncher.App.csproj `
-  -c Release -r win-x64 --self-contained true `
-  -p:PublishDir="artifacts\publish\"
-```
-
-Optional Inno Setup installer:
-
-```text
-tools\installer\SvuLauncher.iss
-```
-
-Technical notes:
-
-- `SvuLauncher.App` — WPF UI and application entry point.
-- `SvuLauncher.Core` — licensing, launch orchestration, and UI-agnostic domain logic.
-- `SvuLauncher.Infrastructure` — SOAP clients, DPAPI storage, hardware identity, and the licence
-  server client.
-- `SvuLauncher.Room` and `SvuLauncher.Codecs` — lecture-room protocol/media and codec support.
-- `SvuLauncher.App.Avalonia` — the cross-platform (Linux) UI head, built with Avalonia (preview).
-- Read `docs/LICENSING.md` and `docs/RELEASING.md` before publishing a build.
 
 ---
 
