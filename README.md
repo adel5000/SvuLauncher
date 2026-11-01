@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/release-v1.0.7-2563eb?style=flat-square" alt="Release v1.0.7">
   <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0b7650?style=flat-square" alt="Windows 10 and Windows 11">
-  <img src="https://img.shields.io/badge/Linux-preview-f0820a?style=flat-square" alt="Linux preview">
+  <img src="https://img.shields.io/badge/Linux-supported-0b7650?style=flat-square" alt="Linux supported">
   <img src="https://img.shields.io/badge/architecture-x64-4c5665?style=flat-square" alt="x64">
   <img src="https://img.shields.io/badge/framework-.NET%20%2F%20WPF-512bd4?style=flat-square" alt=".NET and WPF">
   <img src="https://img.shields.io/badge/languages-AR%20%7C%20EN-c48a2c?style=flat-square" alt="Arabic and English">
@@ -53,7 +53,7 @@
 - [الخطوة 3: التشغيل الأول وطلب الترخيص](#ar-step-3)
 - [الخطوة 4: التفعيل](#ar-step-4)
 - [الخطوة 5: تسجيل الدخول وبدء المحاضرة](#ar-step-5)
-- [دليل Linux (معاينة)](#ar-linux)
+- [دليل التثبيت والتشغيل على نظام لينكس](#ar-linux)
 - [الدعم والتواصل](#ar-support)
 - [الخصوصية والترخيص](#ar-privacy)
 
@@ -70,10 +70,10 @@
 - تخزين آمن لبيانات الحساب باستخدام DPAPI.
 - إصدار x64 قائم بذاته، لا يحتاج إلى تثبيت .NET بشكل منفصل.
 
-> **Linux (معاينة):** تتوفّر الآن نسخة أصلية لنظام Linux بصيغة **AppImage** قيد الاختبار، مبنية على
-> إطار Avalonia، وتدعم تسجيل الدخول واستعراض الجلسات والتفعيل والتحديث الذاتي وتعدّد السمات (Fluent،
-> Semi، Suki، Material). لا تزال قاعة المحاضرة قيد التحقق النهائي على Linux؛ للحصول على نسخة المعاينة
-> تواصل مع المطوّر عبر واتساب. راجع [دليل Linux](#ar-linux) خطوة بخطوة أدناه.
+> **Linux:** تتوفّر نسخة أصلية لنظام Linux بصيغة **AppImage** مبنية على إطار Avalonia، بتكافؤ وظيفي
+> كامل مع نسخة Windows: تسجيل الدخول واستعراض الجلسات والتفعيل وقاعة المحاضرة (الصوت ومشاركة الشاشة
+> والمحادثة) والتحديث الذاتي وأربع سمات (Fluent، Semi، Suki، Material). راجع
+> [دليل التثبيت والتشغيل على نظام لينكس](#ar-linux) خطوة بخطوة أدناه.
 
 > يُنصح دائمًا بالاحتفاظ بنسخة من مفتاح الترخيص في مكان آمن.
 
@@ -169,16 +169,16 @@ SVUL-XXXXX-XXXXX-XXXXX-XXXXX
 
 <a id="ar-linux"></a>
 
-## دليل Linux (معاينة)
+## دليل التثبيت والتشغيل على نظام لينكس
 
 تتوفّر نسخة Linux بصيغة **AppImage**: ملف واحد قائم بذاته يعمل على معظم التوزيعات الحديثة بنواة
 64-bit دون أي خطوة تثبيت. يتضمّن الملف بيئة تشغيل .NET الخاصة به، لذا **لا تحتاج** إلى تثبيت .NET أو
-أي إطار آخر. يعمل حاليًا تسجيل الدخول واستعراض الجلسات والتفعيل والتحديث الذاتي والسمات الأربع
-(Fluent و Semi و Suki و Material)؛ ولا تزال قاعة المحاضرة في مرحلة التحقق النهائي على Linux.
+أي إطار آخر. وهي نسخة رسمية للإنتاج بتكافؤ وظيفي كامل مع نسخة Windows: تسجيل الدخول واستعراض الجلسات
+والتفعيل وقاعة المحاضرة (الصوت ومشاركة الشاشة والمحادثة) والتحديث الذاتي والسمات الأربع (Fluent و Semi
+و Suki و Material) تعمل جميعها.
 
-> للحصول على نسخة المعاينة، تواصل مع المطوّر عبر [واتساب](https://wa.me/963988038382). إجراءات طلب
-> الترخيص والتفعيل وصيغة المفتاح مطابقة تمامًا لنسخة Windows — راجع [الخطوة 3](#ar-step-3) و
-> [الخطوة 4](#ar-step-4).
+> إجراءات طلب الترخيص والتفعيل وصيغة المفتاح مطابقة تمامًا لنسخة Windows — راجع [الخطوة 3](#ar-step-3)
+> و [الخطوة 4](#ar-step-4). للمساعدة، تواصل مع المطوّر عبر [واتساب](https://wa.me/963988038382).
 
 ### 1. متطلبات النظام
 
@@ -355,7 +355,7 @@ release is `v1.0.7`.
 - [Step 3: First launch and licence request](#en-step-3)
 - [Step 4: Activation](#en-step-4)
 - [Step 5: Student login and session launch](#en-step-5)
-- [Linux guide (preview)](#en-linux)
+- [Linux installation & setup guide](#en-linux)
 - [Support](#en-support)
 - [Privacy and licensing](#en-privacy)
 
@@ -373,10 +373,10 @@ and lecture-room hand-off in one focused app.
 - DPAPI-protected storage for saved account credentials.
 - Self-contained x64 build; no separate .NET installation is required.
 
-> **Linux (preview):** A native Linux build is now in testing as an **AppImage**, built on the Avalonia
-> framework. Sign-in, session browsing, activation, self-update, and multiple UI themes (Fluent, Semi,
-> Suki, Material) work. The live lecture room is still being validated on Linux; contact the developer
-> on WhatsApp for a preview build. See the step-by-step [Linux guide](#en-linux) below.
+> **Linux:** A native Linux build is available as an **AppImage**, built on the Avalonia framework, at
+> full parity with the Windows version: sign-in, session browsing, activation, the live lecture room
+> (voice, screen share, and chat), self-update, and four UI themes (Fluent, Semi, Suki, Material). See
+> the step-by-step [Linux installation & setup guide](#en-linux) below.
 
 > Always keep a copy of your licence key in a safe place.
 
@@ -475,17 +475,17 @@ SVUL-XXXXX-XXXXX-XXXXX-XXXXX
 
 <a id="en-linux"></a>
 
-## Linux guide (preview)
+## Linux installation & setup guide
 
 The Linux build ships as a single **AppImage**: one self-contained file that runs on most modern
 64-bit distributions with no installation step. It bundles its own .NET runtime, so you do **not**
-need to install .NET or any other framework. Sign-in, session browsing, activation, self-update, and
-the four UI themes (Fluent, Semi, Suki, Material) work today; the live lecture room is in final
-validation on Linux.
+need to install .NET or any other framework. It is a first-class, production release at full parity
+with the Windows version: sign-in, session browsing, activation, the live lecture room (voice, screen
+share, and chat), self-update, and the four UI themes (Fluent, Semi, Suki, Material) all work.
 
-> Need a preview build? Message the developer on [WhatsApp](https://wa.me/963988038382). Licence
-> requests, activation, and the serial format are identical to Windows — see [Step 3](#en-step-3)
-> and [Step 4](#en-step-4).
+> Licence requests, activation, and the serial format are identical to the Windows version — see
+> [Step 3](#en-step-3) and [Step 4](#en-step-4). For help, message the developer on
+> [WhatsApp](https://wa.me/963988038382).
 
 ### 1. System prerequisites
 
