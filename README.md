@@ -1,21 +1,25 @@
-﻿<h1 align="center">SVU Launcher</h1>
+﻿<p align="center">
+  <img src="docs/brand/svu-logo.png" alt="SVU Launcher logo" width="96">
+</p>
+
+<h1 align="center">SVU Launcher</h1>
 
 <p align="center">
   <strong>مشغّل جلسات الجامعة الافتراضية السورية</strong><br>
-  <sub>A lightweight Windows launcher for SVU live lectures</sub>
+  <sub>Join your SVU live lectures from one place — on Windows, Linux, and Android</sub>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v1.0.7-2563eb?style=flat-square" alt="Release v1.0.7">
-  <img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0b7650?style=flat-square" alt="Windows 10 and Windows 11">
-  <img src="https://img.shields.io/badge/Linux-supported-0b7650?style=flat-square" alt="Linux supported">
-  <img src="https://img.shields.io/badge/architecture-x64-4c5665?style=flat-square" alt="x64">
-  <img src="https://img.shields.io/badge/framework-.NET%20%2F%20WPF-512bd4?style=flat-square" alt=".NET and WPF">
+  <img src="https://img.shields.io/badge/release-v1.0.8-2563eb?style=flat-square" alt="Release v1.0.8">
+  <img src="https://img.shields.io/badge/desktop-Windows%20%7C%20Linux-0b7650?style=flat-square" alt="Windows and Linux">
+  <img src="https://img.shields.io/badge/mobile-Android%208.0%2B-3ddc84?style=flat-square" alt="Android 8.0 and newer">
+  <img src="https://img.shields.io/badge/desktop-.NET%208%20%2F%20WPF%20%2F%20Avalonia-512bd4?style=flat-square" alt=".NET 8, WPF and Avalonia">
+  <img src="https://img.shields.io/badge/android-Kotlin%20%2F%20Compose-7f52ff?style=flat-square" alt="Kotlin and Jetpack Compose">
   <img src="https://img.shields.io/badge/languages-AR%20%7C%20EN-c48a2c?style=flat-square" alt="Arabic and English">
 </p>
 
 <p align="center">
-  <a href="#ar">العربية</a> · <a href="#en">English</a>
+  <a href="#whatsnew">What's new</a> · <a href="#ar">العربية</a> · <a href="#en">English</a> · <a href="#android">📱 Android</a> · <a href="#build">Build from source</a>
 </p>
 
 <p align="center">
@@ -34,12 +38,44 @@
 
 ---
 
+<a id="whatsnew"></a>
+
+## 🆕 What's new in v1.0.8 · ما الجديد في الإصدار 1.0.8
+
+**One project, three platforms.** v1.0.8 brings the native **Android** client to parity with the
+Windows and Linux desktop apps, and refreshes the shared brand mark across all of them.
+
+- 🎨 **Unified brand logo** — the shield-and-"e" mark, in the app gradient, is now the desktop window
+  and taskbar icon (a crisp multi-size `.ico`) as well as the Android launcher icon.
+- 📱 **Native Android client** — browse your timetable, plan reminders, and join lectures on the go;
+  hear and see the tutor, follow the shared screen and whiteboard, chat, and talk when given the floor.
+  See the [Android section](#android).
+- 🔒 **Licensing parity on Android** — the same PC/device-bound activation as the desktop, with a
+  secure on-device key store.
+- 📺 **Picture-in-Picture & background audio (Android)** — a lecture keeps playing in a floating window
+  or in the background via a media foreground service.
+- 🟢 **"May be live" sessions** — a planned lecture whose start time just passed is highlighted as
+  joinable, instead of looking overdue.
+- 🧭 **Clearer sessions UI** — high-contrast dark mode, a floating view switcher (Cards / Table /
+  Timeline), wrapping filter chips with a live result count, and pull-to-refresh.
+- ⏳ **Friendly loading & errors (Android)** — a shimmer skeleton while a lecture connects, and plain,
+  icon-led messages instead of raw technical errors.
+- 🌐 **In-app language switch** — toggle Arabic (RTL) and English from Settings on both desktop and
+  Android.
+
+> **بالعربية:** يجلب الإصدار **1.0.8** تطبيق **أندرويد** الأصلي بمستوى تكافؤ مع نسختي Windows و Linux،
+> ويوحّد شعار العلامة عبر المنصّات الثلاث: شعار جديد موحّد، وعميل أندرويد أصلي كامل الميزات، وتكافؤ في
+> الترخيص، ودعم «صورة داخل صورة» والتشغيل في الخلفية، وحالة **«قد تكون مباشرة»** للجلسات، وواجهة جلسات
+> أوضح، وحالات تحميل وأخطاء ودّية، ومبدّل لغة داخل التطبيق. راجع [قسم أندرويد](#android).
+
+---
+
 <a id="ar"></a>
 
 # 🇸🇾 العربية
 
 دليل عملي لتثبيت **SVU Launcher** وتفعيله والبدء باستخدامه على Windows. أحدث إصدار:
-`v1.0.7`.
+`v1.0.8`.
 
 > **حمّل فقط من [صفحة أحدث إصدار رسمي](../../releases/latest):** لا تثق بملفات Setup من مصادر أخرى.
 > لا تشارك مفتاح الترخيص أو كلمة مرور الجامعة مع أي شخص.
@@ -74,6 +110,9 @@
 > كامل مع نسخة Windows: تسجيل الدخول واستعراض الجلسات والتفعيل وقاعة المحاضرة (الصوت ومشاركة الشاشة
 > والمحادثة) والتحديث الذاتي وأربع سمات (Fluent، Semi، Suki، Material). راجع
 > [دليل التثبيت والتشغيل على نظام لينكس](#ar-linux) خطوة بخطوة أدناه.
+
+> **Android:** يتوفّر أيضًا تطبيق **أندرويد** أصلي (Kotlin + Jetpack Compose) بالقاعة نفسها والترخيص
+> والتذكيرات وواجهة عربية/إنجليزية. راجع قسم [أندرويد](#android).
 
 > يُنصح دائمًا بالاحتفاظ بنسخة من مفتاح الترخيص في مكان آمن.
 
@@ -361,7 +400,7 @@ update-desktop-database ~/.local/share/applications 2>/dev/null || true
 # 🇬🇧 English
 
 A practical guide to installing, activating, and using **SVU Launcher** on Windows. The latest
-release is `v1.0.7`.
+release is `v1.0.8`.
 
 > **Download only from the official [latest release page](../../releases/latest).** Do not trust
 > Setup files from other sources. Never share your licence key or your university password.
@@ -397,6 +436,10 @@ and lecture-room hand-off in one focused app.
 > full parity with the Windows version: sign-in, session browsing, activation, the live lecture room
 > (voice, screen share, and chat), self-update, and four UI themes (Fluent, Semi, Suki, Material). See
 > the step-by-step [Linux installation & setup guide](#en-linux) below.
+
+> **Android:** A native Android client (Kotlin + Jetpack Compose) is also available, with the same
+> lecture room, licensing, reminders and Arabic/English UI. See the [Android companion](#android)
+> section.
 
 > Always keep a copy of your licence key in a safe place.
 
@@ -685,6 +728,107 @@ is already the case.
 - Your account credentials are not sent to the licence server.
 - Do not share your licence key publicly; it can be revoked or its seat can be reset from the
   administration dashboard.
+
+---
+
+<a id="android"></a>
+
+# 📱 Android companion
+
+A **native Android client**, built in **Kotlin + Jetpack Compose** (Material 3), brings SVU lectures
+to your phone — not a web wrapper. Browse your timetable, plan reminders, and join a lecture to hear
+and see the tutor, follow the shared screen and whiteboard, chat with the class, and talk when the
+tutor gives you the floor. It runs on **Android 8.0 (API 26) and newer**.
+
+> **بالعربية:** تطبيق **أندرويد أصلي** مبني بلغة Kotlin وواجهة Jetpack Compose، يتيح تصفّح الجدول
+> وتخطيط التذكيرات والانضمام إلى المحاضرات — سماع المدرّس ومشاهدته، ومتابعة الشاشة المشتركة والسبورة،
+> والدردشة، والتحدّث عند منح الكلمة. يعمل على أندرويد 8.0 (API 26) فأحدث.
+
+## Highlights
+
+- **Offline-first schedule** — your programs, courses and sessions are cached locally (Room), so the
+  timetable opens instantly and survives a flaky connection; pull-to-refresh fetches the latest.
+- **Native lecture room** — joins the SVU conference over its native binary protocol (no browser):
+  bit-exact TrueSpeech audio, the shared screen, the tutor's whiteboard, webcam, and in-room chat.
+- **Talk when invited** — raise your hand; once the tutor grants the floor, your microphone streams
+  with a byte-exact TrueSpeech encoder.
+- **Background playback & Picture-in-Picture** — a live lecture keeps playing in a floating PiP window
+  or in the background, kept alive by a media foreground service.
+- **Reminders & personal planner** — schedule exact pre-lecture alarms that survive Doze and reboot.
+- **Licensing parity** — the same device-bound activation as the desktop, with keys stored in
+  EncryptedSharedPreferences.
+- **Arabic (RTL) & English** — a full right-to-left layout and an in-app language switch, with the
+  bundled **Cairo** typeface.
+- **Adaptive, modern UI** — a brand Material 3 theme with optional dynamic color, adaptive dark/light
+  themes, and a hardware-aware graphics tier.
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/android/01-sign-in.png" alt="Android sign-in with the SVU logo" width="190">
+  &nbsp;
+  <img src="docs/screenshots/android/02-sessions.png" alt="Android sessions list in dark mode" width="190">
+  &nbsp;
+  <img src="docs/screenshots/android/03-filters.png" alt="Android filter sheet with wrapping chips and a result count" width="190">
+  &nbsp;
+  <img src="docs/screenshots/android/04-lecture-room.png" alt="Android lecture room with split-screen chat" width="190">
+  &nbsp;
+  <img src="docs/screenshots/android/05-license.png" alt="Android license screen showing an active licence" width="190">
+</p>
+<p align="center"><sub>Sign-in · Sessions (dark) · Filters · Lecture room (split chat) · License</sub></p>
+
+> The Android client is not yet on an app store — build the APK from source
+> ([Build from source](#build)) and install it on your device.
+
+---
+
+<a id="build"></a>
+
+# 🛠️ Build from source
+
+This repository holds the **desktop** app (.NET 8). The **Android** client is a separate
+Kotlin/Compose project. Both are built with the standard toolchains below.
+
+## Desktop (Windows & Linux)
+
+**Prerequisites:** the [.NET 8 SDK](https://dotnet.microsoft.com/download) (8.0.400 or newer).
+
+```bash
+# Build and test the whole solution
+dotnet build SvuLauncher.sln -c Release
+dotnet test  tests/SvuLauncher.Tests/SvuLauncher.Tests.csproj
+
+# Windows: self-contained x64 build (WPF)
+dotnet publish src/SvuLauncher.App/SvuLauncher.App.csproj \
+  -c Release -r win-x64 --self-contained
+
+# Linux: self-contained x64 build (Avalonia)
+dotnet publish src/SvuLauncher.App.Avalonia/SvuLauncher.App.Avalonia.csproj \
+  -c Release -r linux-x64 --self-contained
+```
+
+The signed Windows installer and the Linux **AppImage** are produced by the release tooling under
+`tools/`. Most users should just download a ready build from the
+[latest release page](../../releases/latest) instead of building by hand.
+
+## Android
+
+**Prerequisites:** JDK 17 or newer (JDK 21 recommended) and the Android SDK (API 35). From the
+Android project's root directory:
+
+```bash
+# Build the debug APK
+./gradlew assembleDebug
+
+# Run the unit tests
+./gradlew testDebugUnitTest
+
+# Install on a connected device (USB debugging enabled)
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+```
+
+The app targets `minSdk 26` (Android 8.0) and `compileSdk 35`, with `applicationId`
+`com.ghaarchitect.svulauncher`.
 
 ---
 

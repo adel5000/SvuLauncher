@@ -9,3 +9,7 @@
 !docs/screenshots/*.png
 !.gitignore
 !README.md
+!docs/screenshots/android/
+!docs/screenshots/android/*.png
+!docs/brand/
+!docs/brand/*.png
