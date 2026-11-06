@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="#whatsnew">What's new</a> · <a href="#ar">العربية</a> · <a href="#en">English</a> · <a href="#android">📱 Android</a> · <a href="#build">Build from source</a>
+  <a href="#whatsnew">What's new</a> · <a href="#ar">العربية</a> · <a href="#en">English</a> · <a href="#android">📱 Android</a>
 </p>
 
 <p align="center">
@@ -777,11 +777,8 @@ tutor gives you the floor. It runs on **Android 8.0 (API 26) and newer**.
 </p>
 <p align="center"><sub>Sign-in · Sessions (dark) · Filters · Lecture room (split chat) · License</sub></p>
 
-> The Android client is not yet on an app store — build the APK from source
-> ([Build from source](#build)) and install it on your device.
+
 
 ---
-
-<a id="build"></a>
 
 
