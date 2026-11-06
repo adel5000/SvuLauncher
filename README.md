@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v1.0.8-2563eb?style=flat-square" alt="Release v1.0.8">
+  <img src="https://img.shields.io/badge/release-v1.0.8-2563eb?style=flat-square" alt="Release v1.0.13">
   <img src="https://img.shields.io/badge/desktop-Windows%20%7C%20Linux-0b7650?style=flat-square" alt="Windows and Linux">
   <img src="https://img.shields.io/badge/mobile-Android%208.0%2B-3ddc84?style=flat-square" alt="Android 8.0 and newer">
   <img src="https://img.shields.io/badge/desktop-.NET%208%20%2F%20WPF%20%2F%20Avalonia-512bd4?style=flat-square" alt=".NET 8, WPF and Avalonia">
@@ -784,55 +784,4 @@ tutor gives you the floor. It runs on **Android 8.0 (API 26) and newer**.
 
 <a id="build"></a>
 
-# 🛠️ Build from source
 
-This repository holds the **desktop** app (.NET 8). The **Android** client is a separate
-Kotlin/Compose project. Both are built with the standard toolchains below.
-
-## Desktop (Windows & Linux)
-
-**Prerequisites:** the [.NET 8 SDK](https://dotnet.microsoft.com/download) (8.0.400 or newer).
-
-```bash
-# Build and test the whole solution
-dotnet build SvuLauncher.sln -c Release
-dotnet test  tests/SvuLauncher.Tests/SvuLauncher.Tests.csproj
-
-# Windows: self-contained x64 build (WPF)
-dotnet publish src/SvuLauncher.App/SvuLauncher.App.csproj \
-  -c Release -r win-x64 --self-contained
-
-# Linux: self-contained x64 build (Avalonia)
-dotnet publish src/SvuLauncher.App.Avalonia/SvuLauncher.App.Avalonia.csproj \
-  -c Release -r linux-x64 --self-contained
-```
-
-The signed Windows installer and the Linux **AppImage** are produced by the release tooling under
-`tools/`. Most users should just download a ready build from the
-[latest release page](../../releases/latest) instead of building by hand.
-
-## Android
-
-**Prerequisites:** JDK 17 or newer (JDK 21 recommended) and the Android SDK (API 35). From the
-Android project's root directory:
-
-```bash
-# Build the debug APK
-./gradlew assembleDebug
-
-# Run the unit tests
-./gradlew testDebugUnitTest
-
-# Install on a connected device (USB debugging enabled)
-adb install -r app/build/outputs/apk/debug/app-debug.apk
-```
-
-The app targets `minSdk 26` (Android 8.0) and `compileSdk 35`, with `applicationId`
-`com.ghaarchitect.svulauncher`.
-
----
-
-<p align="center">
-  Built for SVU students · صُنع لطلاب الجامعة الافتراضية السورية<br>
-  <sub>Eng. Mohammad Adel Ayman Watad · <a href="https://wa.me/963988038382">WhatsApp</a></sub>
-</p>
