@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v1.0.8-2563eb?style=flat-square" alt="Release v1.0.13">
+  <img src="https://img.shields.io/badge/release-v1.0.13-2563eb?style=flat-square" alt="Release v1.0.13">
   <img src="https://img.shields.io/badge/desktop-Windows%20%7C%20Linux-0b7650?style=flat-square" alt="Windows and Linux">
   <img src="https://img.shields.io/badge/mobile-Android%208.0%2B-3ddc84?style=flat-square" alt="Android 8.0 and newer">
   <img src="https://img.shields.io/badge/desktop-.NET%208%20%2F%20WPF%20%2F%20Avalonia-512bd4?style=flat-square" alt=".NET 8, WPF and Avalonia">
@@ -40,9 +40,9 @@
 
 <a id="whatsnew"></a>
 
-## 🆕 What's new in v1.0.8 · ما الجديد في الإصدار 1.0.8
+## 🆕 What's new in v1.0.13 · ما الجديد في الإصدار 1.0.13
 
-**One project, three platforms.** v1.0.8 brings the native **Android** client to parity with the
+**One project, three platforms.** v1.0.13 brings the native **Android** client to parity with the
 Windows and Linux desktop apps, and refreshes the shared brand mark across all of them.
 
 - 🎨 **Unified brand logo** — the shield-and-"e" mark, in the app gradient, is now the desktop window
@@ -63,7 +63,7 @@ Windows and Linux desktop apps, and refreshes the shared brand mark across all o
 - 🌐 **In-app language switch** — toggle Arabic (RTL) and English from Settings on both desktop and
   Android.
 
-> **بالعربية:** يجلب الإصدار **1.0.8** تطبيق **أندرويد** الأصلي بمستوى تكافؤ مع نسختي Windows و Linux،
+> **بالعربية:** يجلب الإصدار **1.0.13** تطبيق **أندرويد** الأصلي بمستوى تكافؤ مع نسختي Windows و Linux،
 > ويوحّد شعار العلامة عبر المنصّات الثلاث: شعار جديد موحّد، وعميل أندرويد أصلي كامل الميزات، وتكافؤ في
 > الترخيص، ودعم «صورة داخل صورة» والتشغيل في الخلفية، وحالة **«قد تكون مباشرة»** للجلسات، وواجهة جلسات
 > أوضح، وحالات تحميل وأخطاء ودّية، ومبدّل لغة داخل التطبيق. راجع [قسم أندرويد](#android).
@@ -75,7 +75,7 @@ Windows and Linux desktop apps, and refreshes the shared brand mark across all o
 # 🇸🇾 العربية
 
 دليل عملي لتثبيت **SVU Launcher** وتفعيله والبدء باستخدامه على Windows. أحدث إصدار:
-`v1.0.8`.
+`v1.0.13`.
 
 > **حمّل فقط من [صفحة أحدث إصدار رسمي](../../releases/latest):** لا تثق بملفات Setup من مصادر أخرى.
 > لا تشارك مفتاح الترخيص أو كلمة مرور الجامعة مع أي شخص.
@@ -400,7 +400,7 @@ update-desktop-database ~/.local/share/applications 2>/dev/null || true
 # 🇬🇧 English
 
 A practical guide to installing, activating, and using **SVU Launcher** on Windows. The latest
-release is `v1.0.8`.
+release is `v1.0.13`.
 
 > **Download only from the official [latest release page](../../releases/latest).** Do not trust
 > Setup files from other sources. Never share your licence key or your university password.
